@@ -1,0 +1,57 @@
+/* [javohoir]{
+    background-color: red;
+} */
+
+
+
+/* .box~p{
+    color: blue;
+} */
+
+/* .box{
+    display: flex;
+    align-items: center;
+}
+
+/* .text+.text{
+    margin-right: 40px;
+} */
+/* .box:hover+.text2{
+    color: red;
+}
+
+.box{
+    font-size: 70px;
+    height: 50vh;
+    width: 50vw;
+}
+
+.text{
+    font-size: 2rem;
+} */ 
+.input__block{
+    display: flex;
+    flex-direction: column;
+    padding: 11px 21px ;
+    width: 500px;
+    gap: 5px;
+    margin-bottom: 30px;
+}
+
+.textarea{
+    resize:none;
+}
+.input{
+    border-radius: 12px;
+    border: 1px solid #d1d1d1;
+    background-color: #f9f9f9;
+    outline-width: 1px;
+    outline-color: greenyellow;
+}
+.input::placeholder{
+    color: red;
+}
+
+.input:focus::placeholder{
+    color: transparent;
+}

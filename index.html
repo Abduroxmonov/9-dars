@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div class="box">
+        <h1 class="title">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quaerat et saepe error dolorem voluptate unde, consequatur voluptates fugit hic eius dolorum, pariatur molestiae reprehenderit iste tempore facilis numquam. Est?
+        </h1>
+        
+    </div>
+    <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores ducimus cumque laborum dicta tempora vitae, harum tempore nobis porro. Minima exercitationem reiciendis consectetur hic qui minus beatae tenetur aperiam itaque!</p> -->
+
+    <!-- <form method="post">
+        <input
+        class="input"
+        required=""
+        max="" 
+        min=""
+        maxlength=""
+        minlength=""
+        aria-label="Name" 
+        placeholder="name" 
+        autocomplete="off"  
+        id="user_name" name="username" 
+        type="text">
+    </form> -->
+
+    <form enctype="multipart/form-data" method="post">
+        <fieldset>
+            <legend>login</legend>
+            <div class="input__block">
+                <label for="user_name">User Name</label>
+                <input class="input" id="user_name" placeholder="Name" type="text" name="username">
+            </div>
+            <div class="input__block">
+                <label for="user_password">User Password</label>
+                <input class="input" id="user__name" type="password" name="userpassword">
+            </div>
+            <div class="input__block">
+                <label for="user__email">Email</label>
+                <input class="input" id="user__eamil" type="email" name="email">
+            </div>
+            <div class="input__block">
+                <label for="user__photo">Photo</label>
+                <input class="input" accept="imga/png, image/jpeg, .doc, .docx" id="user__photo" type="file" name="Photo">
+            </div>
+            <div class="input__block">
+                <select name="location" id="user__location">
+                    <option value="andijon">Andijon</option>
+                    <option selected value="surxondayo">Surxondaryo</option>
+                    <option value="toshkent">Toshkent</option>
+
+                </select>
+            </div>
+            <div class="input__block">
+                <textarea class="textarea" name="des" id="user_des" cols="60" rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ab ipsam saepe quia facere, deserunt at natus eaque fuga, aspernatur perspiciatis amet nulla dolorem, praesentium fugit nemo modi in et!
+                </textarea>
+            </div>
+            <div class="input__block">
+                <fieldset>
+                    <legend>Qiziqishlar</legend>
+                    <input id="game" type="checkbox" name="game" value="game">
+                    <label for="game">Contr o'ynash</label>
+                    <input  id="book" type="checkbox" name="book" value="book">
+                    <label for="book">Kitob</label>
+                </fieldset>
+            </div>
+            <div class="input__block">
+                <fieldset>
+                    <legend>Qiziqishlar</legend>
+                    <input id="deadline1" type="radio"  name="deadline" value="24">
+                    <label for="deadline1">24</label>
+                    <input checked id="deadline2" type="radio" name="deadline" value="36">
+                    <label for="deadline2">36</label>
+                </fieldset>
+            </div>
+        </fieldset>
+    </form>
+
+</body>
+</html>
